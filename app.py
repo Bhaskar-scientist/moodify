@@ -1,6 +1,7 @@
 # Import necessary libraries
 import streamlit as st
 import requests
+$ pip install -U textblob
 from textblob import TextBlob
 import pandas as pd
 
