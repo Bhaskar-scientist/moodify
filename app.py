@@ -5,7 +5,7 @@ from textblob import TextBlob
 import pandas as pd
 
 # DeepInfra API Key (Ensure it's set securely)
-DEEPINFRA_API_KEY = "your_deepinfra_api_key"
+DEEPINFRA_API_KEY = your_deepinfra_api_key
 
 # Function to generate a response from Llama-3.3-70B-Instruct-Turbo
 def generate_response(prompt):
