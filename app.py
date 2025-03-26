@@ -3,6 +3,7 @@ import streamlit as st
 import requests
 from textblob import TextBlob
 import pandas as pd
+import os
 
 # DeepInfra API Key (Ensure it's set securely)
 DEEPINFRA_API_KEY = os.getenv("your_deepinfra_api_key")
