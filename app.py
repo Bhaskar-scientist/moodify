@@ -55,11 +55,11 @@ def provide_coping_strategy(sentiment):
 # Display data privacy disclaimer
 def display_disclaimer():
     st.sidebar.markdown(
-        "<h2 style='color: #FF5733;'>Data Privacy Disclaimer</h2>",
+        "<h2 style='color: #fffbf7;'>Data Privacy Disclaimer</h2>",
         unsafe_allow_html=True
     )
     st.sidebar.markdown(
-        "<span style='color: #FF5733;'>This application stores your session data temporarily. Avoid sharing personal or sensitive information.</span>",
+        "<span style='color: #fff6ec;'>This application stores your session data temporarily. Avoid sharing personal or sensitive information.</span>",
         unsafe_allow_html=True
     )
 
